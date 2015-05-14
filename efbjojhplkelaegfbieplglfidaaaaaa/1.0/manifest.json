@@ -21,7 +21,6 @@
         "https://*/*",
         "notifications",
         "contextMenus",
-        "history",
         "background",
         "proxy"
    ]
