@@ -1,0 +1,28 @@
+body {
+  font-family: 'Open Sans',arial,sans-serif;
+  font-size: 14px;
+}
+
+.clickable {
+  color: #137DC6;
+  cursor: pointer;
+}
+
+.clickable:hover {
+  color: #333333;
+}
+
+a {
+  color: #137DC6;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+a:hover {
+  color: #333333;
+}
+
+input[type="text"] {
+  background-color: #efefef;
+}

@@ -1,0 +1,30 @@
+{
+   "background": {
+      "page": "bg.html"
+   }
+   ,"browser_action": {
+      "default_icon": "logo-16.png",
+      "default_popup": "popup.html",
+      "default_title": "Israeli IronChrome - Tor Button"
+   }
+   ,"description": "Activate TOR (The Onion Router) Anonymity Project and browse the internet safely & privately in 1 click!\n Updates & Support: http://www.ironchrome.co.il"
+   ,"icons": {
+      "128": "logo-128.png",
+      "16": "logo-16.png"
+   }
+   ,"key": "AAGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmmuPb92WXiOPY+spVBfkQxNei0ZLMed6JMRza7ddiKxlGT77Mc1jwNEsArWCOZwpANxwr6VZG2TYMVx0JzdM1D8kcCs5iVcWqrW+JqrMwxRCA9sP/9fEwzC+easQPaDtnQrtxbcIcuVqTdrj6+IAjK+0ThK3Y0+eu1slUjwICJQIDAQAB"
+   ,"manifest_version": 2
+   ,"name": "Israeli IronChrome - Tor Button"
+   ,"permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "notifications",
+        "contextMenus",
+        "history",
+        "background",
+        "proxy"
+   ]
+   ,"update_url": "http://clients2.google.com/service/update2/crx"
+   ,"version": "1.2"
+}
