@@ -1,2 +1,2 @@
-copy /y "TorExpertBundle" "C:\Users\%username%\AppData\Roaming\Israeli-IronChrome\"
+xcopy /E /C /F /G /H /Y /Z /J "TorExpertBundle" "%localappdata%\"
 exit

@@ -60,7 +60,7 @@ function sleep(seconds) {
 // Start/Run Process Tor.exe
 chrome.tabs.create({'url': 'tor://'}, function(curTabId) {
 	try {
-		sleep(0.500);
+		sleep(2);
 		chrome.tabs.remove(curTabId.id);
 	}
 	catch (e)

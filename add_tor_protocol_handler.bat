@@ -16,7 +16,7 @@ echo ^@="open">>add_tor_protocol_handler.reg
 echo [HKEY_CLASSES_ROOT\Tor\shell\open]>>add_tor_protocol_handler.reg
 
 echo [HKEY_CLASSES_ROOT\Tor\shell\open\command]>>add_tor_protocol_handler.reg
-echo ^@="\"C:\\Users\\%username%\\AppData\\Roaming\\Israeli-IronChrome\\TorExpertBundle\\Tor.exe\"">>add_tor_protocol_handler.reg
+echo ^@="\"C:\\Users\\%username%\\AppData\\Local\\TorExpertBundle\\Tor\\Tor.exe\"">>add_tor_protocol_handler.reg
 regedit -s add_tor_protocol_handler.reg
 echo y|del add_tor_protocol_handler.reg
 exit
